@@ -1,0 +1,144 @@
+$primaryColor: #4527a4;
+
+.wp-block-b-blocks-draggable {
+	box-sizing: border-box;
+
+	// * {
+	// 	box-sizing: border-box;
+	// }
+
+	// .bBlocksBlockName {
+	// 	display: inline-block;
+	// }
+
+	// .icon {
+	// 	font-style: inherit;
+	// }
+
+	// img {
+	// 	width: 100%;
+	// 	max-width: 100%;
+	// }
+	.drgable-container {
+		position: absolute;
+		top: 100px;
+		left: 10px;
+		z-index: 9999999;
+		width: 320px;
+	}
+
+	.drgable-card {
+		// border-radius: 1.5rem;
+		overflow: hidden;
+		position: relative;
+		background: linear-gradient(to bottom, #2563eb, #7c3aed);
+		color: white;
+		// padding: 1.5rem;
+	}
+
+	.drgable-badge {
+		// position: absolute;
+		// top: 0;
+		// right: 0;
+		// left: 0;
+		width: 100%;
+		background-color: black;
+		padding: 15px 0;
+		cursor: move;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+
+
+	.drgable-badge-text {
+		text-align: center;
+		line-height: 1;
+	}
+
+	.drgable-discount {
+		color: #4AFF32;
+		font-size: 2rem;
+		font-weight: bold;
+		letter-spacing: -0.025em;
+	}
+
+	.drgable-black-friday {
+		text-align: center;
+		line-height: 1.25;
+		margin-top: 0.125rem;
+	}
+
+	.drgable-black-friday-text {
+		font-size: 1.125rem;
+		font-weight: bold;
+		letter-spacing: -0.025em;
+	}
+
+	.drgable-friday {
+		color: #dc2626;
+	}
+
+	.drgable-main-content {
+		// margin-top: 5rem;
+	}
+
+	.drgable-title {
+		font-size: 2.25rem;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+		color: #fff;
+	}
+
+	.drgable-features {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.drgable-feature {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.drgable-feature-icon {
+		color: #4AFF32;
+		fill: #4AFF32;
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	.drgable-feature-text {
+		font-size: 1.25rem;
+	}
+
+	.drgable-price {
+		text-align: center;
+		color: #4AFF32;
+		font-size: 2.25rem;
+		font-weight: 500;
+		font-style: italic;
+		margin-bottom: 2rem;
+	}
+
+	.drgable-button {
+		width: 100%;
+		background-color: white;
+		color: black;
+		border: none;
+		border-radius: 0.5rem;
+		padding: 0.75rem 1.5rem;
+		font-size: 1.125rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: background-color 0.2s;
+	}
+
+	.drgable-button:hover {
+		background-color: #f3f4f6;
+	}
+
+}

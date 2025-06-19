@@ -1,0 +1,106 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "b-blocks/draggable",
+  "version": "1.0.0",
+  "title": "Draggable",
+  "category": "widgets",
+  "description": "A block for displaying a draggable card.",
+  "keywords": [
+    "card",
+    "draggable"
+  ],
+  "textdomain": "b-blocks",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "container": {
+      "type": "object",
+      "default": {
+        "position": {
+          "x": 50,
+          "y": 50
+        },
+        "height": "",
+        "width": "",
+        "shadow": {},
+        "padding": {
+          "left": "15px",
+          "right": "15px",
+          "top": "15px",
+          "bottom": "15px"
+        },
+        "bg": {},
+        "border": {},
+        "radius": {
+          "top": "24px",
+          "right": "24px",
+          "bottom": "24px",
+          "left": "24px"
+        }
+      }
+    },
+    "badge": {
+      "type": "object",
+      "default": {
+        "height": "",
+        "width": "100%",
+        "padding": {
+          "left": "15px",
+          "right": "15px",
+          "top": "15px",
+          "bottom": "15px"
+        },
+        "bg": {},
+        "shadow": {},
+        "border": {},
+        "radius": {},
+        "content": "<div class=\"drgable-badge-content\"><div class=\"drgable-badge-text\"><span class=\"drgable-discount\">90% OFF</span></div><div class=\"drgable-black-friday\">BLACK<span class=\"drgable-black-friday-text friday\"> FRIDAY</span></div></div>"
+      }
+    },
+    "body": {
+      "type": "object",
+      "default": {
+        "height": "",
+        "width": "",
+        "shadow": {},
+        "padding": {
+          "left": "15px",
+          "right": "15px",
+          "top": "15px",
+          "bottom": "15px"
+        },
+        "bg": {},
+        "border": {},
+        "radius": {
+          "top": "24px",
+          "right": "24px",
+          "bottom": "24px",
+          "left": "24px"
+        },
+        "content": "<h1 class=\"drgable-title\">All In One</h1> <div class=\"drgable-features\"> <div class=\"drgable-feature\"> <span class=\"drgable-feature-text\">20+ Premium plugin</span> </div> <div class=\"drgable-feature\"> <span class=\"drgable-feature-text\">Get Lifetime</span> </div> <div class=\"drgable-feature\"><span class=\"drgable-feature-text\">Unlimited Site License</span></div> </div> <div class=\"drgable-price\">Just $ 953</div> <button class=\"drgable-button\"> Buy Full Package </button>"
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": [
+    "file:./view.js",
+    "react",
+    "react-dom"
+  ]
+}
