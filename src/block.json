@@ -3,7 +3,7 @@
 	"apiVersion": 2,
 	"name": "b-blocks/draggable",
 	"version": "1.0.0",
-	"title": "Draggable",
+	"title": "Draggable Card",
 	"category": "widgets",
 	"description": "A block for displaying a draggable card.",
 	"keywords": [
@@ -20,8 +20,8 @@
 			"type": "object",
 			"default": {
 				"position": {
-					"x": 50,
-					"y": 50
+					"x": 40,
+					"y": 35
 				},
 				"height": "",
 				"width": "",

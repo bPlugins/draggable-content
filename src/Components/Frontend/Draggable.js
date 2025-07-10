@@ -3,7 +3,7 @@ const Draggable = ({ attributes }) => {
 	const draggableRef = useRef(null);
 	const { body, badge, container } = attributes;
 	const [offset, setOffset] = useState(container.position || { x: 0, y: 0 });
-	const [position, setPosition] = useState({ x: 50, y: 50 });
+	const [position, setPosition] = useState({ x: 40, y: 35 });
 	const [isDragging, setIsDragging] = useState(false);
 	const draggElRef = useRef(null);
 	// useEffect(() => {
@@ -65,7 +65,7 @@ const Draggable = ({ attributes }) => {
 	// ]);
 
 	useEffect(() => { 
-		setPosition(container.position || { x: 50, y: 50 });
+		setPosition(container.position || { x: 40, y: 35 });
 		setOffset(container.position || { x: 0, y: 0 });
 	},[container.position])
 	useEffect(() => {

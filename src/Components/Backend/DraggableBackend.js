@@ -3,7 +3,7 @@ const DraggableBackend = ({ attributes, setAttributes }) => {
     const draggableRef = useRef(null);
     const { body, badge, container } = attributes;
     const [offset, setOffset] = useState({ x: 0, y: 0 });
-    const [position, setPosition] = useState(container.position || { x: 50, y: 50 });
+    const [position, setPosition] = useState(container.position || { x: 40, y: 35 });
     const [isDragging, setIsDragging] = useState(false);
     const draggElRef = useRef(null);
     const editorContainerRef = useRef(null);
@@ -67,7 +67,7 @@ const DraggableBackend = ({ attributes, setAttributes }) => {
 
     useEffect(() => {
         // editorContainerRef.current = document.querySelector('.edit-post-visual-editor');
-        setPosition(container.position || { x: 50, y: 50 });
+        setPosition(container.position || { x: 40, y: 35 });
         // setOffset(container.position || { x: 0, y: 0 });
     }, [container.position])
     useEffect(() => {

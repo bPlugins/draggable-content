@@ -1,17 +1,20 @@
-=== Plugin Name ===
-Contributors:		bplugins
+=== Draggable Content ===
+Contributors:		bplugins, muradwahid
 Donate link:		https://gum.co/wpdonate/
-Tags:				block, key1, key2, key3, key4
+Tags:			dragable, content, block, video, audio
 Requires at least:	6.3+
-Tested up to:		6.5.5
-Stable tag:			1.0.0
+Tested up to:		6.8
+Stable tag:		1.0.0
 Requires PHP:		7.2
-License:			GPLv3 or later
+License:		GPLv3 or later
 License URI:		http://www.gnu.org/licenses/gpl-3.0.html
 
-Short description of the plugin
+A block plugin to create Draggable Cards.
 
 == Description ==
+
+A block plugin to create Draggable Cards.
+
 
 [Plugin Demo](https://bblockswp.com/demo/plugin-slug) | [Documentation](https://bplugins.com/docs/plugin-slug) | [Get Pro Version](https://bblockswp.com/demo/plugin-slug/#pricing)
 
