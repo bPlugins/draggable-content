@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Draggable Card
- * Description: A block for displaying a draggable card."
+ * Plugin Name: Draggable Content
+ * Description: A block for displaying a draggable content."
  * Version: 1.0.0
  * Author: bPlugins
  * Author URI: https://bplugins.com

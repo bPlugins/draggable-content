@@ -3,10 +3,11 @@
 	"apiVersion": 2,
 	"name": "b-blocks/draggable",
 	"version": "1.0.0",
-	"title": "Draggable Card",
+	"title": "Draggable Content",
 	"category": "widgets",
-	"description": "A block for displaying a draggable card.",
+	"description": "A block for displaying a draggable content.",
 	"keywords": [
+		"content",
 		"card",
 		"draggable"
 	],
